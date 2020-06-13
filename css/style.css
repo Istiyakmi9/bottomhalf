@@ -13,6 +13,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+span.color-green {
+  color: #18d26e;
+}
+
 a {
   color: #18d26e;
   transition: 0.5s;
