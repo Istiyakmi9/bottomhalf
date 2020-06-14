@@ -1,6 +1,6 @@
 Thanks for downloading this theme!
 
-Theme Name: BizPage
-Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+Theme Name: Bottomhalf
+Theme URL: https://bottomhalf.in
 Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Author URL: https://www.bottomhalf.in
