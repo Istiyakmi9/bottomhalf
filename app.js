@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-	res.sendFile(__dirname + "/bottomhalf/index.html");
+	res.sendFile(__dirname + "/site/index.html");
 });
 
 app.listen(80);
