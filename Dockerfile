@@ -1,13 +1,7 @@
-FROM node:18-alpine
+FROM nginx:alpine
 
-WORKDIR /app
-
-COPY package.json .
-
-RUN npm install
-
-COPY . .
-
-EXPOSE 3000
-
-CMD [ "node", "app.js" ]
+ADD contactform /usr/share/nginx/html/contactform
+ADD img /usr/share/nginx/html/img
+ADD js /usr/share/nginx/html/js
+ADD lib /usr/share/nginx/html/lib
+ADD css /usr/share/nginx/html/css

@@ -18,6 +18,13 @@ spec:
         - name: bottomhalf-site
           image: istiyaqmi9/bottomhalf-site:latest
           imagePullPolicy: Always
+          volumeMounts:
+            - mountPath: /usr/share/nginx/html/index.html
+              name: site-index-page
+      volumes:
+        - name: site-index-page
+          hostPath:
+            path: /root/projects/bottomhalf/index.html
 
 ---
 
